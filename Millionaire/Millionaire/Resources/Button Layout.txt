@@ -1,0 +1,28 @@
+Button:
+  ____________________________
+ /                            \
+< <> A: Vozovna Střelná Hora   >
+ \____________________________/
+
+
+Definující body:
+
+B  A___________________K  L
+  /                    \
+C<  D                J  >I
+  \____________________/
+F  E                   G  H
+
+
+A  (Height/1.5; Stroke/2)
+B  (Height/1.5 - Smoothing; Stroke/2)
+C  (0; (Height+1)/2)
+D  (Smoothing; (Height+1)/2)
+E  (Height/1.5; Height - (Stroke/2))
+F  (Height/1.5 - Smoothing; Height - (Stroke/2))
+G  (Width - (Height/1.5); Height - (Stroke/2))
+H  (Width - (Height/1.5) + Smoothing; Height - (Stroke/2))
+I  (Width; (Height+1)/2)
+J  (Width - Smoothing; (Height+1)/2)
+K  (Width - (Height/1.5); Stroke/2)
+L  (Width - (Height/1.5) + Smoothing; Stroke/2)

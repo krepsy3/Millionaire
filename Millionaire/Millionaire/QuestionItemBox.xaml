@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Milionaire.QuestionItemBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Milionaire"
+             mc:Ignorable="d" 
+             d:DesignHeight="59" d:DesignWidth="550">
+    <DockPanel>
+        <Path Fill="#FF004DBD" Stroke="#FF9B9B9B" >
+            <Path.Data>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigure IsClosed="True">
+                            <PathFigure.StartPoint>
+                                <Point X="45" Y="0.5" />
+                            </PathFigure.StartPoint>
+                            <PolyBezierSegment>
+                                <PolyBezierSegment.Points>
+                                    <Point X="30" Y="0.5" />
+                                    <Point X="10" Y="30" />
+                                    <Point X="0" Y="30" />
+
+                                    <Point X="10" Y="30" />
+                                    <Point X="30" Y="58.5" />
+                                    <Point X="45" Y="58.5" />
+                                </PolyBezierSegment.Points>
+                            </PolyBezierSegment>
+                            <LineSegment>
+                                <LineSegment.Point>
+                                    <Point X="505" Y="58.5" />
+                                </LineSegment.Point>
+                            </LineSegment>
+                            <PolyBezierSegment>
+                                <PolyBezierSegment.Points>
+                                    <Point X="520" Y="58.5" />
+                                    <Point X="540" Y="30" />
+                                    <Point X="550" Y="30" />
+
+                                    <Point X="540" Y="30" />
+                                    <Point X="520" Y="0.5" />
+                                    <Point X="505" Y="0.5" />
+                                </PolyBezierSegment.Points>                                
+                            </PolyBezierSegment>
+                        </PathFigure>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+    </DockPanel>
+</UserControl>
