@@ -171,16 +171,16 @@ B<  B'           E' >E
 C' C               D  D'
 
 
-A  (ActualHeight*DecorRatio; BoxStroke/2)
-A' (ActualHeight*DecorRatio - DecorRadius; BoxStroke/2)
-B  (0; (ActualHeight+1)/2)
-B' (DecorRadius; (ActualHeight+1)/2)
-C  (ActualHeight*DecorRatio; ActualHeight - (BoxStroke/2))
-C' (ActualHeight*DecorRatio - DecorRadius; ActualHeight - (BoxStroke/2))
-D  (ActualWidth - (ActualHeight*DecorRatio); ActualHeight - (BoxStroke/2))
-D' (ActualWidth - (ActualHeight*DecorRatio) + DecorRadius; ActualHeight - (BoxStroke/2))
-E  (ActualWidth; (ActualHeight+1)/2)
-E' (ActualWidth - DecorRadius; (ActualHeight+1)/2)
-F  (ActualWidth - (ActualHeight*DecorRatio); BoxStroke/2)
-F' (ActualWidth - (ActualHeight*DecorRatio) + DecorRadius; BoxStroke/2)
+A  [ActualHeight*DecorRatio; BoxStroke/2]
+A' [ActualHeight*DecorRatio - DecorRadius; BoxStroke/2]
+B  [0; (ActualHeight+1)/2]
+B' [DecorRadius; (ActualHeight+1)/2]
+C  [ActualHeight*DecorRatio; ActualHeight - (BoxStroke/2)]
+C' [ActualHeight*DecorRatio - DecorRadius; ActualHeight - (BoxStroke/2)]
+D  [ActualWidth - (ActualHeight*DecorRatio); ActualHeight - (BoxStroke/2)]
+D' [ActualWidth - (ActualHeight*DecorRatio) + DecorRadius; ActualHeight - (BoxStroke/2)]
+E  [ActualWidth; (ActualHeight+1)/2]
+E' [ActualWidth - DecorRadius; (ActualHeight+1)/2]
+F  [ActualWidth - (ActualHeight*DecorRatio); BoxStroke/2]
+F' [ActualWidth - (ActualHeight*DecorRatio) + DecorRadius; BoxStroke/2]
 */
