@@ -58,7 +58,7 @@
     <Compile Include="QuestionItemBox.xaml.cs">
       <DependentUpon>QuestionItemBox.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <Page Include="QBoxDemoWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -66,8 +66,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="QBoxDemoWindow.xaml.cs">
+      <DependentUpon>QBoxDemoWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="QuestionItemBox.xaml">
